@@ -14,7 +14,7 @@ Type = st.text_input('Тип оплаты (Eng) (Credit, cash)')
 MPrice = st.text_input('Средняя цена товара (Например, 3.5)')
 
 if MPrice != "":
-    MPrice = int(MPrice)
+    MPrice = float(MPrice)
 
 Month = st.text_input('Месяц (№)')
 if Month != "":
